@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "monserrat";
+  background-image: url(../img/stars1.gif), url(../img/galaxybg.jpg);
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+/* ============ FORM ========== */
+#month{
+  background-color: #F5D3EE;
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  border: none;
+}
+
+#day{
+  background-color: #F5D3EE;
+  margin-left: 45px;
+  width: 80px;
+  height: 31px;
+  border: none;
+}
+/* ============ BUTTON =========== */
+#submit{
+  width: 67px;
+  height: 62px;
+  border-radius: 50%;
+  display: block;
+  margin: 30px 85px;
+  background: #A73CB7;
+  border: 2px solid #811b90;
+
+}
+
+#submit:hover {
+  background-color: #3C62B7;
+  cursor: pointer;
+  -webkit-transition: background-color 2s ease-out;
+  /* -moz-transition: background-color 2s ease-out; */
+  /* -o-transition: background-color 2s ease-out; */
+  /* transition: background-color 2s ease-out; */
+}
+#submit i {
+  font-size: 35px;
+  color: #FFF;
+}
+
+/* =========== CONTAINER 1 ============= */
+.container1{
+  float:left;
+  width: 30%;
+  padding-left: 135px;
+}
+
+.credit{
+  color: pink;
+  text-decoration: none;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+/* =========== CONTAINER 2 ============= */
+.container2{
+  float:left;
+  width: 70%;
+  padding: 50px;
+}
+
+/* =========== ZODIAC RESULTS ============= */
+.zodiac{
+  background: rgb(255 192 203 / 50%);
+  border: 3px double #e9a8db;
+  height: 200px;
+  width: 276px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 250px;
+  margin-left: 35px;
+}
+
+img{
+  width: 34%;
+  display: block;
+  margin: 0 auto 15px auto;
+  border: 14px double #EDA80B;
+}
+
+#traits, #title{
+  text-align: center;
+  color: #FFF;
+  background: rgb(86 132 202 / 45%);
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+#title{
+  font-size: 40px;
+  font-family: "Sriracha";
+  -webkit-text-stroke: 1px #2657A2;
+}
+
+#traits{
+  display: inline-block;
+  line-height: 28px;
+  font-family: "Open Sans";
+
+}
+
+.traitsSpacing{
+  padding: 0 45px 17px 45px;
+}
+
+/* =========== WELCOME ============= */
+#welcome {
+  color: #FFF;
+  font-family: "Open Sans";
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 250px;
+}
+
+.welcomeOff{
+  display: none;
+}
