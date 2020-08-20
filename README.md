@@ -23,3 +23,7 @@ Take a look at these couple examples that I have in my own portfolio:
 Parchment Sword or Blade: https://kimflores-parchment-stone-blade.netlify.app
 
 Calculator: https://kimflores-calculator.netlify.app
+
+Slot Machine: https://github.com/Kim-Flores/slot-machine-2019-week05/tree/answer
+
+To-Do List: https://github.com/Kim-Flores/todo-list-2019-week05/tree/answer
