@@ -1,9 +1,7 @@
 # Horoscope :taurus:
 
 Live Code: https://kimflores-horoscope.netlify.app
-
-
-Live Code: 
+ 
 # How It's Made:
 ### Tech used: 
 
